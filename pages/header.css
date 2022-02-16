@@ -1,0 +1,68 @@
+:root{
+   
+    --primary-color:#102B3F;
+    --CTA: #ff316d;
+  }
+
+  
+
+.header-wrapper {
+    display: grid;
+  width: 100%;
+background-color: black;
+color: white;
+  grid-gap: 1rem;
+grid-template-columns: repeat(5, [col-start] 1fr);
+    height: 3.5rem;
+
+}
+
+.header-logo{
+    margin: 2% 7%;
+    grid-column: col-start 1/ 3;
+}
+.header-logo *{
+    display: inline-block;
+}
+.header-logo-text{
+    font-weight: 300;
+}
+
+.header-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: col-start 5/6;
+}
+
+.header-login{
+    margin-left: auto;
+    grid-column: col-start 4/5;
+    margin-left:  auto;
+    border: 1px solid white;
+    color: white;
+    padding:  0.5rem;
+
+}
+.badge-wrapper{
+    margin: 0.5rem auto;
+}
+.header-wishlist{
+  display: flex;
+    margin: 2% auto;
+}
+.header-cart{
+    display: flex;
+    margin: 2% auto;
+}
+.header-text-sm{
+    width: 80%;
+    margin: auto;
+}
+.badge-num{
+    background-color: var(--CTA);
+    padding: 0.15rem 0.25rem;
+}
+.cta{ 
+    color: var(--CTA);
+}
