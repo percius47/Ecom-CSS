@@ -1,20 +1,18 @@
-:root{
-   
-    --primary-color:#102B3F;
-    --CTA: #ff316d;
-  }
 
-  
 
 .header-wrapper {
     display: grid;
   width: 100%;
-background-color: black;
+background-color: var(--primary-black);
 color: white;
   grid-gap: 1rem;
 grid-template-columns: repeat(5, [col-start] 1fr);
     height: 3.5rem;
-
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
 }
 
 .header-logo{
@@ -38,11 +36,12 @@ grid-template-columns: repeat(5, [col-start] 1fr);
 .header-login{
     margin-left: auto;
     grid-column: col-start 4/5;
-    margin-left:  auto;
     border: 1px solid white;
     color: white;
-    padding:  0.5rem;
-
+    padding:  0 0.5rem ;
+    height: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 .badge-wrapper{
     margin: 0.5rem auto;
