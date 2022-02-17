@@ -14,6 +14,7 @@
     display: flex;
     margin: 0 auto;
     justify-content: space-around;
+    margin-top: 3.5rem;
 }
 .submenu-item{
     cursor: pointer;
@@ -21,6 +22,68 @@
 }
 .submenu-item:hover{
     color: var(--CTA-light);
+}
+
+.home-content{
+    display: grid;
+    width: 100%;
+    grid-gap: 1rem;
+  grid-template-columns: repeat(6, [col-start] 1fr);
+    
+  }
+  .home-filter{
+      grid-column: col-start /2;
+      padding: 0.5rem;
+  }
+.home-product{
+    grid-column: col-start 2/-1;
+    padding: 0.5rem;
+}
+
+.filter-head{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: var(--primary-black);
+}
+.filter-clear{
+    color: var(--CTA);
+    text-align: right;
+    margin-right: 1rem;
+}
+.category-head{
+    font-weight: 600;
+    margin: 1rem auto;
+}
+.category-parent{
+    display: flex;
+    flex-wrap: wrap;
+}
+.category-select{
+    color: white;
+    font-weight: 500;
+    background-color: var(--primary-black);
+    width: fit-content;
+    display: inline;
+    padding: 0.35rem;
+    margin: 0.25rem;
+    border-radius: 0.5rem;
+}
+.category-selected{
+    background-color: var(--CTA);
+}
+.product-h2{
+   margin: 0.5rem 0;
+    margin-left: 5%;
+
+}
+.divide{
+    height: 0.0625rem;
+    background-color:var(--primary-black);
+    width: 90%;
+    margin: 0.5rem auto;
 }
 .v-nveg{
     height: 1rem;
@@ -39,16 +102,15 @@
 {
     border-radius: 1rem;
     overflow: hidden;
-    /* transform-origin: 0 0; */
-  
-    transition: all  0.25s ease-in;
+
 }
 .card-img-wrapper:hover img {
-    transform: scale(1.3);
+    transform: scale(1.1);
+    transition: all 0.5s ease-in-out 0.1s;
   }
   
 .card-img {
-   
+   border-radius: 1rem;
     overflow: hidden;
     width: 100%;
 }
@@ -61,7 +123,26 @@ display: inline-block;
     margin: 0.25rem;
     padding-left: 0;
 }
-
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--rating-green);
+    color: white;
+    border-radius: 0.5rem;
+    width: 25%;
+    text-align: center;
+}
+.r-star{
+    background-color: transparent;
+    margin: auto 0.25rem;
+    color: white;
+}
+.rating-num{
+    display: inline;
+    margin: auto 0.25rem;
+    font-weight: 500;
+}
 .prod-abt{
     display: flex;
     justify-content: flex-start;
@@ -75,7 +156,7 @@ display: inline-block;
     display: grid;
     width: 100%;
     grid-gap: 1rem;
-  grid-template-columns: repeat(5, [col-start] 1fr);
+  grid-template-columns: repeat(3, [col-start] 1fr);
   
 }
 
@@ -94,4 +175,16 @@ text-align: center;
     border: 2px solid var(--CTA);
     padding: 0.25rem 0.8rem;
     border-radius: 0.8rem;
+}
+
+.home-footer{
+    width: 100%;
+    background-color: var(--primary-black);
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text{
+    color: white;
 }
