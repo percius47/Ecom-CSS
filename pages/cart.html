@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://windui.netlify.app/wind.css">
+    <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+    <link rel="stylesheet" href="./header.css">
+    <link rel="stylesheet" href="./product-page.css">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="./cart.css">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Windy's</title>
+</head>
+<body>
+    <!-- Nav -->
+    <div class="header-wrapper">
+        <div class="header-logo" >
+            <a href="./home.html" class="nav-logo-link">
+            <span class="material-icons cta">
+                storm
+                </span>
+            <h1 class="header-logo-text">Windy's</h1>
+        </a>
+        </div>
+        <!-- <div class="header-search">
+            <input type="text" placeholder="fans,AC's..">
+        </div> -->
+     
+        
+          
+            <div class="header-options">
+                
+                    <a href="./login.html">
+                <button class="header-login btn btn-outline">
+                    Login
+                </button>
+                    </a>
+               
+            <div class="header-icon">
+                <!-- img -->
+
+                <div class="badge-wrapper">
+                    <!-- Profile -->
+                    <a href="./home.html">
+                    <img src="../images/Profile-navbar.png" alt="logged-out-image" class=" style-prefix-2jfr04 efaomd31" loading="lazy" width="26" height="26">
+                    </a>
+                    <span class=" badge-top-right ">!</span>
+                    
+                    </div>
+                <!-- <span class="header-text-sm">Wishlist</span> -->
+            </div>
+            <div class="header-icon">
+                <!-- img -->
+          
+                <div class="badge-wrapper">
+                    <!-- Cart -->
+                   <a href="./cart.html">
+                    <img src="../images/cart-icon.png" alt="cart" class="" loading="lazy" width="24" height="22.01834862385321">
+                   </a> 
+                    <span class=" badge-top-right">1</span>
+                    
+                    </div>
+                <!-- <span class="header-text-sm">Cart</span> -->
+            </div>
+        </div>
+    </div>
+ 
+<!-- cart content-->
+
+<div class="cart-parent">
+    <div class="cart-heading">
+       <p>My Cart</p>
+    </div>
+    <div class="cart-location">
+                  
+        <span class="material-icons location-icon">
+            place
+            </span>
+            <span class="location-text">401, 5th main, 5th Cross, 2nd Main, RT Nagar, Bengaluru 403203.</span>
+            <span class="material-icons edit-location">
+                edit
+                </span>
+    </div>
+    <div class="cart-content">
+        <div class="cart-items">
+           
+            
+            <div class="cart-card">
+                <img src="../images/item-1.jpg" alt="item-1" class="cart-item-image">
+                <div class="cart-card-info">
+                    <h2 class="cart-item-heading">
+                        Butter Paneer Burger
+                    </h2>
+                    <div class="prod-abt">
+                        <img class="v-nveg" src="../images/veg.png" alt="">
+                        <h6 class="card-subtitle">    557 Cal | High Fibre, Protein</h6>
+                      </div>
+                    <p class="cart-item-price">Price: ₹ 94.00</p>
+                    <div class="cart-quantity">
+                        <span class="cart-pl-min">+</span>
+                        <span class="cart-quantity-number">2</span>
+                        <span class="cart-pl-min">-</span>
+                        <span class="material-icons cart-delete-item">
+                            delete
+                            </span>
+                    </div>
+
+                 
+                  
+                </div>
+            </div>
+
+            <div class="cart-card">
+                <img src="../images/item-2.jpg" alt="item-1" class="cart-item-image">
+                <div class="cart-card-info">
+                    <h2 class="cart-item-heading">
+                        Poha
+                    </h2>
+                    <div class="prod-abt">
+                        <img class="v-nveg" src="../images/veg.png" alt="">
+                        <h6 class="card-subtitle">    557 Cal | High Fibre, Protein</h6>
+                      </div>
+                    <p class="cart-item-price">Price: ₹ 94.00</p>
+                    <div class="cart-quantity">
+                        <span class="cart-pl-min">+</span>
+                        <span class="cart-quantity-number">1</span>
+                        <span class="cart-pl-min">-</span>
+                        <span class="material-icons cart-delete-item">
+                            delete
+                            </span>
+                    </div>
+
+                 
+                  
+                </div>
+            </div>
+
+            <div class="cart-card">
+                <img src="../images/item-3.jpg" alt="item-1" class="cart-item-image">
+                <div class="cart-card-info">
+                    <h2 class="cart-item-heading">
+                        Oatmeal Fruit Bowl
+                    </h2>
+                    <div class="prod-abt">
+                        <img class="v-nveg" src="../images/veg.png" alt="">
+                        <h6 class="card-subtitle">    557 Cal | High Fibre, Protein</h6>
+                      </div>
+                    <p class="cart-item-price">Price: ₹ 94.00</p>
+                    <div class="cart-quantity">
+                        <span class="cart-pl-min">+</span>
+                        <span class="cart-quantity-number">1</span>
+                        <span class="cart-pl-min">-</span>
+                        <span class="material-icons cart-delete-item">
+                            delete
+                            </span>
+                    </div>
+
+                 
+                  
+                </div>
+            </div>
+
+        </div>
+        <div class="cart-total">
+            <p class="bill-header"><span>Cart</span> Total</p>
+            <div class="bill-slab">
+                <span class="cart-item-name">Butter Paneer Burger</span>
+                <span class="bill-item-price">₹ 188.00</span>
+            </div>
+            <div class="divide"></div>
+            <div class="bill-slab">
+                <span class="cart-item-name">Poha</span>
+                <span class="bill-item-price">₹ 94.00</span>
+            </div>
+            <div class="divide"></div>
+            <div class="bill-slab">
+                <span class="cart-item-name">Oatmeal Fruit Bowl</span>
+                <span class="bill-item-price">₹ 94.00</span>
+            </div>
+            <div class="divide"></div>
+            <div class="bill-slab">
+                <span class="cart-item-name">Tax & Delivery Charges</span>
+                <span class="bill-item-price">₹ 20.00</span>
+            </div>
+            <div class="divide"></div>
+            <div class="bill-slab">
+                <span class="cart-item-name">Discount</span>
+                <span class="bill-item-price">-₹ 50.00
+                    <span class="coupon-name">(WINDY500)</span>
+                </span>
+              
+            </div>
+            <div class="divide"></div>
+            <div class="bill-slab bill-total">
+                <span class="cart-item-name">Grand Total</span>
+                <span class="bill-item-price">₹ 346.00</span>
+            </div>
+           
+         
+                <button class="order-btn">Place Order</button>
+     
+              
+        </div>
+    </div>
+
+</div>
+
+
+        
+
+ <div class="footer">
+     <p class="footer-text">
+         Made with &lt;Wind-UI/&gt;.
+     </p>
+ </div>
+    
+</body>
+</html>
