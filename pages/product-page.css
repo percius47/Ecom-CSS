@@ -53,6 +53,7 @@
     text-align: right;
     margin-right: 1rem;
 }
+
 .category-head{
     font-weight: 600;
     margin: 1rem auto;
@@ -98,6 +99,7 @@
     padding: 0.5rem 0.25rem;
   background-color: white;
 }
+
 .card-img-wrapper
 {
     border-radius: 1rem;
@@ -187,4 +189,7 @@ text-align: center;
 }
 .footer-text{
     color: white;
+}
+.filter-clear:hover, .category-select:hover,.card:hover{
+    cursor: pointer;
 }

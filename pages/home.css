@@ -59,6 +59,7 @@ margin-bottom: 25rem;
 }
 .home-card-landscape:hover{
         background-color: whitesmoke;
+        cursor: pointer;
 }
 .home-card-landscape img{
     width: 100%;
