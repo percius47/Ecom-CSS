@@ -1,0 +1,100 @@
+.login-card-wrapper{
+    margin-top: 3.5rem;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-image: url(../images/home-banner-jpeg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login-card{
+   
+   margin: auto;
+    background-color: var(--primary-black);
+    padding: 1rem;
+    color: white;
+    width: 30%;
+    height: 30rem;  
+    border-radius: 1rem;
+}
+
+.login-heading{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    text-decoration: 3px solid underline;
+    text-decoration-color: var(--CTA-light);
+    
+}
+.login-inputs{
+margin: 1.5rem 0.5rem ;
+}
+.login-input-element{
+    padding: 0.5rem;
+}
+.login-label{
+    margin-left: 1rem;
+}
+.login-input-field{
+    color: white;
+    font-size: 1rem;
+    display: block;
+    border: 1.5px solid var(--CTA-light);
+    padding: 0.5rem;
+    width: 90%;
+    min-width: 50%;
+    border-radius: 0.25rem;
+    margin: 0.5rem;
+    background-color: transparent;
+}
+.login-input-field:focus{
+border: 2px solid var(--CTA);
+}
+.login-input-theme{
+    color: var(--CTA);
+}
+.input-check-label{
+    margin-left: 0.5rem;
+    color: white;
+    font-weight: 300;
+}
+.inp-check{
+   accent-color: var(--CTA);
+}
+.btn-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login-btn-link{
+    background-color: var(--CTA);
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem auto ;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.signup-btn-link{
+    background-color: transparent;
+    border: 1.5px solid white;
+    color: white;
+    text-align: center;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin: 0.5rem auto ;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.col-cta{
+    color: var(--CTA);
+}
+.signup-btn-link:hover .col-cta-hover{
+    color: var(--CTA);
+}
