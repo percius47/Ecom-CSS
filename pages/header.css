@@ -65,3 +65,7 @@ grid-template-columns: repeat(5, [col-start] 1fr);
 .cta{ 
     color: var(--CTA);
 }
+
+.header-logo:hover,.header-wishlist:hover,.header-cart:hover{
+    cursor: pointer;
+}
