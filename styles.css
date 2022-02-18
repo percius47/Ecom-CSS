@@ -24,3 +24,21 @@ input{
 outline: none !important;
 border-color: transparent;
 }
+.App{
+  display: flex;
+  width: 80%;
+  margin: 2rem auto;
+  justify-content: center;
+align-items: center;
+}
+.index-btn{
+  padding: 0.5rem 0.75rem;
+  margin: 1rem auto;
+  border-radius: 0.5rem;
+  background-color: var(--primary-black);
+  color: white;
+}
+.index-btn:hover span{
+color: var(--CTA);
+cursor: pointer;
+}
