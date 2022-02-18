@@ -1,7 +1,26 @@
 :root{
-    --primary-black:#161616;
-    --CTA: #ff316d;
-    --CTA-light: #fa749a;
-    --gray-subnav:#393a3b;
-    --rating-green:#24963f;
-  }
+  --primary-black:#161616;
+  --CTA: #ff316d;
+  --CTA-light: #fa749a;
+  --gray-subnav:#393a3b;
+  --rating-green:#24963f;
+}
+.footer{
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-black);
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-text{
+  color: white;
+}
+input{
+outline: none !important;
+border-color: transparent;
+}
