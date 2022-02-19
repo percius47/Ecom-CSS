@@ -24,6 +24,14 @@ input{
 outline: none !important;
 border-color: transparent;
 }
+/*
+
+.divide{
+  height: 0.0625rem;
+  background-color:var(--primary-black);
+  width: 90%;
+  margin: 0.5rem auto;
+=======
 .App{
   display: flex;
   width: 80%;
@@ -41,4 +49,5 @@ align-items: center;
 .index-btn:hover span{
 color: var(--CTA);
 cursor: pointer;
-}
+
+} */
