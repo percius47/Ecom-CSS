@@ -1,19 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://windui.netlify.app/wind.css">
+    <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+        <link rel="icon" type="image/x-icon" href="../images/windy-logo-white.png">
+    <link rel="stylesheet" href="./pages/header.css">
     <link rel="stylesheet" href="./styles.css">
-   
-    <link rel="icon" type="image/x-icon" href="../images/windy-logo-white.png">
+    <link rel="stylesheet" href="./pages/home.css">
+    <link rel="stylesheet" href="./pages/product-page.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Windy's</title>
 </head>
 <body>
-    <div class="App">
-    <a href="./pages/home.html">
-       <button class="index-btn"> Visit <span> Windy's !</span></button>
-    </a>
-</div>
+    <!-- Nav -->
+    <div class="header-wrapper">
+        <div class="header-logo" >
+            <a href="./pages/home.html" class="nav-logo-link">
+            <span class="material-icons cta">
+                storm
+                </span>
+            <h1 class="header-logo-text">Windy's</h1>
+        </a>
+        </div>
+        <!-- <div class="header-search">
+            <input type="text" placeholder="fans,AC's..">
+        </div> -->
+     
+        
+          
+            <div class="header-options">
+                
+                    <a href="./pages/login.html">
+                <button class="header-login btn btn-outline">
+                    Login
+                </button>
+                    </a>
+               
+            <div class="header-icon">
+                <!-- img -->
+
+                <div class="badge-wrapper">
+                    <!-- Profile -->
+                    <a href="./pages/home.html">
+                    <img src="../images/Profile-navbar.png" alt="logged-out-image" class=" style-prefix-2jfr04 efaomd31" loading="lazy" width="26" height="26">
+                    </a>
+                    <span class=" badge-top-right ">!</span>
+                    
+                    </div>
+                <!-- <span class="header-text-sm">Wishlist</span> -->
+            </div>
+            <div class="header-icon">
+                <!-- img -->
+          
+                <div class="badge-wrapper">
+                    <!-- Cart -->
+                   <a href="./pages/cart.html">
+                    <img src="../images/cart-icon.png" alt="cart" class="" loading="lazy" width="24" height="22.01834862385321">
+                   </a> 
+                    <span class=" badge-top-right">1</span>
+                    
+                    </div>
+                <!-- <span class="header-text-sm">Cart</span> -->
+            </div>
+        </div>
+    </div>
+    <!-- Sub nav -->
+  
+
+    <!-- Hero-banner -->
+    <div class="hero-banner">
+        <img src="../images/home-banner.jpg" alt="" class="home-banner-img" loading="eager">
+      
+    <div class="banner-text">
+   
+         <div class="banner-head">
+          <span class="material-icons banner-logo-cta">
+            storm
+            </span>
+        <h1 class=" banner-logo">Windy's</h1>
+         </div>
+         <div class="banner-logo-subtext banner-logo">
+            <p >Toned food for toned you!</p>
+          </div>
+          </div>
+          </div>
+
+          <div class="home-card-parent">
+            <div class="home-card-landscape">
+                <a  href="./pages/product-page.html" class="link-productpage">
+              <div class="card-img-wrapper">
+              <img src="../images/indian-meal-1.jpg" alt="">
+              </div>
+              <h2 class="card-heading">Order Meals Online</h2>
+              <p class="card-subheading">Avail the luxury of tongue-tastic meals at your doorstep.</p>
+              </a>
+            </div>
+            <div class="home-card-landscape">
+                <a  href="./pages/product-page.html" class="link-productpage">
+              <div class="card-img-wrapper">
+                 
+              <img src="../images/indian-meal-2.jpg" alt="">
+              </div>
+              <h2 class="card-heading">Welcome Healthy Snacks</h2>
+              <p class="card-subheading">Try the new set of health foods and snacks to keep your diet on track in a healthy fashion.</p>
+              </a>
+            </div>
+          </div>
+
+ <div class="footer">
+     <p class="footer-text">
+         Made with &lt;Wind-UI/&gt;.
+     </p>
+ </div>
+    
 </body>
 </html>
