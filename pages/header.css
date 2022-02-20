@@ -3,6 +3,7 @@
 .header-wrapper {
     display: grid;
   width: 100%;
+  min-width: 350px;
 background-color: var(--primary-black);
 color: white;
   grid-gap: 1rem;

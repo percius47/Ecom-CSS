@@ -127,7 +127,7 @@ display: inline-block;
     background-color: var(--rating-green);
     color: white;
     border-radius: 0.5rem;
-    width: 25%;
+    width: 4rem;
     text-align: center;
 }
 .r-star{
@@ -152,6 +152,7 @@ display: inline-block;
 .product-list{
     display: grid;
     width: 100%;
+    /* min-width: 480px; */
     grid-gap: 1rem;
   grid-template-columns: repeat(3, [col-start] 1fr);
   
@@ -188,3 +189,36 @@ text-align: center;
 .filter-clear:hover, .category-select:hover,.card:hover{
     cursor: pointer;
 }
+
+@media screen and (max-width: 1250px) {
+    .product-list{
+        display: grid;
+         grid-template-columns: repeat(2, [col-start] 1fr);
+    }
+    .card {
+                width: 15rem;    
+    }
+    
+    }
+    
+
+        @media screen and (max-width: 950px) {
+            .product-list{
+                display: grid;
+               
+              grid-template-columns: 1fr;
+              
+            }
+            .home-filter{
+                grid-column: col-start /3;
+                padding: 0.5rem;
+            }
+            .home-product{
+              grid-column: col-start 3/-1;
+              padding: 0.5rem;
+            }
+            .card {
+                width: 16rem;    
+    }
+   
+            }

@@ -15,8 +15,8 @@
     background-color: var(--primary-black);
     padding: 1rem;
     color: white;
-    width: 30%;
-    height: 30rem;  
+    width: 50%;
+    height: auto;  
     border-radius: 1rem;
 }
 
@@ -97,4 +97,12 @@ border: 2px solid var(--CTA);
 }
 .signup-btn-link:hover .col-cta-hover{
     color: var(--CTA);
+}
+/* Resp */
+@media screen and (max-width:900px){
+   .login-card{
+       width: 60%;
+        padding: 0.5rem;
+   }
+    
 }
